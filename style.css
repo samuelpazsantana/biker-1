@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+:root {
+    --verde: #a69c14;
+    --laranja: #d9843b;
+    --marrom: #733f2c;
+    --vermelho: #a61205;
+    --preto: #0d0d0d;
+
+    --fonte-pd: Arial, Verdana, Helvetica, sans-serif;
+    --fonte: 'Meeriweather', 'Times New Roman' serif;
+    --fonte-esp: 'Satisfy', serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcddab;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #59290C, #D99C52);
+    min-height: 120px;
+    text-align: center;
+    padding-top: 40px;
+
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: auto;
+    
+}
+
+header h1 {
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.295);
+}
+
+header p {
+    font-size: 1.5em;
+    color: var(--preto);
+    font-weight: 700;
+}
+
+nav {
+    color: white;
+    background-color: #D99C52;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: #611500;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: var(--laranja);
+    background-color: #611500;
+    transition: 0.4s;
+}
+
+main {
+    background-color: #f0b975;
+    background-size: cover;
+    width: 600px;
+    height: 750px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.199);
+}
+
+main h1 {
+    font-family: var(--fonte-esp);
+    font-size: 3.5em;
+    color: #5a1c0b;
+    text-align: center;
+    margin: 30px 0px 40px;
+}
+
+main a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.perso {
+    background-color: white;
+    font-size: 1.5em;
+    color: black;
+    height: 40px;
+    width: 300px;
+    cursor: pointer;
+    border: 5px solid #611500;
+    padding: 10px 10px 10px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.212);
+}
+
+.perso:hover {
+    text-decoration: underline;
+    border: 5px solid #E1B977;
+    color: #E1B977;
+    background-color: #5a1c0b;
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
